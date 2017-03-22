@@ -1,0 +1,18 @@
+/*公用部分*/
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, form, img, dl, dt, dd, table, th, td, input{margin:0;padding:0; font-family:'微软雅黑','Arial';}
+ul li{list-style: none;}
+a{text-decoration: none;color: #97825c;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+img,a img{vertical-align: top;border: 0;}
+em,i{font-style: normal;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;font-size:100%;line-height:100%;}
+input,textarea{outline: none;font-family:'微软雅黑','Arial';-webkit-appearance:none;}
+.clearfix:after{display: block;clear: both;height: 0;visibility: hidden;font-size: 0;line-height: 0;content: "";}
+.clearfix{zoom:1;}
+
+/*lazyload*/
+body{background: #f5f5f5;}
+.lazy-load{width: 1001px;margin: 0 auto;padding: 20px 0;}
+.lazy-load h2{height: 48px;line-height: 48px;font-size: 20px;margin-top: 50px;}
+.lazy-load ul{width: 1000px;border-left: 1px solid #dedede;border-top: 1px solid #dedede;background: #fff;}
+.lazy-load ul li{float: left;width: 249px;border-right: 1px solid #dedede;border-bottom: 1px solid #dedede;text-align: center;padding: 15px 0;}
+.lazy-load ul li h3{font-size: 14px;height: 24px;line-height: 24px;}
