@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>图片懒加载</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<link rel="stylesheet" type="text/css" href="css/lazy-load.css">
+	</head>
+	<body>
+		<div class="lazy-load">
+			<h2>Lazy load floor 1</h2>
+			<ul class="clearfix">
+				<li>
+					<img class="lazy" src="images/tempimage.gif" data-src="images/img1.jpg" alt="lazyload" width="164" height="164">
+					<h3>这是一张神奇的图片。。。</h3>
+				</li>
+				<li>
+					<img class="lazy" src="images/tempimage.gif" data-src="images/img2.jpg" alt="lazyload" width="164" height="164">
+					<h3>这是一张神奇的图片。。。</h3>
+				</li>
+				<li>
+					<img class="lazy" src="images/tempimage.gif" data-src="images/img3.jpg" alt="lazyload" width="164" height="164">
+					<h3>这是一张神奇的图片。。。</h3>
+				</li>
+				<li>
+					<img class="lazy" src="images/tempimage.gif" data-src="images/img4.jpg" alt="lazyload" width="164" height="164">
+					<h3>这是一张神奇的图片。。。</h3>
+				</li>
+			</ul>
+			<h2>Lazy load floor 2</h2>
+			<ul class="clearfix">
+				<li>
+					<img class="lazy" src="images/tempimage.gif" data-src="images/img1.jpg" alt="lazyload" width="164" height="164">
+					<h3>这是一张神奇的图片。。。</h3>
+				</li>
+				<li>
+					<img class="lazy" src="images/tempimage.gif" data-src="images/img2.jpg" alt="lazyload" width="164" height="164">
+					<h3>这是一张神奇的图片。。。</h3>
+				</li>
+				<li>
+					<img class="lazy" src="images/tempimage.gif" data-src="images/img3.jpg" alt="lazyload" width="164" height="164">
+					<h3>这是一张神奇的图片。。。</h3>
+				</li>
+				<li>
+					<img class="lazy" src="images/tempimage.gif" data-src="images/img4.jpg" alt="lazyload" width="164" height="164">
+					<h3>这是一张神奇的图片。。。</h3>
+				</li>
+			</ul>
+			<h2>Lazy load floor 3</h2>
+			<ul class="clearfix">
+				<li>
+					<img class="lazy" src="images/tempimage.gif" data-src="images/img1.jpg" alt="lazyload" width="164" height="164">
+					<h3>这是一张神奇的图片。。。</h3>
+				</li>
+				<li>
+					<img class="lazy" src="images/tempimage.gif" data-src="images/img2.jpg" alt="lazyload" width="164" height="164">
+					<h3>这是一张神奇的图片。。。</h3>
+				</li>
+				<li>
+					<img class="lazy" src="images/tempimage.gif" data-src="images/img3.jpg" alt="lazyload" width="164" height="164">
+					<h3>这是一张神奇的图片。。。</h3>
+				</li>
+				<li>
+					<img class="lazy" src="images/tempimage.gif" data-src="images/img4.jpg" alt="lazyload" width="164" height="164">
+					<h3>这是一张神奇的图片。。。</h3>
+				</li>
+			</ul>
+		</div>		
+	</body>
+	<script type="text/javascript" src="js/zepto.js"></script>
+	<script type="text/javascript" src="js/lazy-load.js"></script>
+	<script>
+		$('.lazy').LazyLoad();
+	</script>
+</html>
