@@ -23,3 +23,29 @@ Lazy Load 这个 jQuery 插件，是用来缓冲加载图片的插件。如果�
 ```javascript
 $('.lazy').LazyLoad();
 ```
+
+# lazyLoad
+Picture lazy loading.
+
+Lazy Load this jQuery plug-in, is used to buffer the loaded image plug-in.If the page is very long, there are a lot of pictures, it will take a lot of time to download pictures.The plug-in, you will detect the situation of the scroll, only when the browser scroll bar to scroll to the visible location of the image, it will request to download the picture from the background, and then show.Use this plug-in, you can need to display pictures, only to download pictures, so you can reduce the pressure on the server, to avoid unnecessary resources to download.
+
+#### Step 1: Load related files
+Introduce zepto.js or jquery.js
+
+```javascript
+<script type="text/javascript" src="js/zepto.js"></script>
+<script type="text/javascript" src="js/lazy-load.js"></script>
+```
+
+#### Step 2: Define picture structure
+In accordance with the official proposal, define your img structure, the need for lazy loading of the picture with the same class, and the default SRC into a 1x1 pixel image, the value of the data-src set to the actual address of the picture.
+
+```javascript
+<img class="lazy" src="images/tempimage.gif" data-src="images/img1.jpg" alt="lazyload" width="164" height="164">
+```
+
+#### Step 3: Call this plugin
+
+```javascript
+$('.lazy').LazyLoad();
+```
